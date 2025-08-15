@@ -119,9 +119,6 @@
     "type": "git",
     "url": "git+https://github.com/dpa99c/cordova-diagnostic-plugin.git"
   },
-  "scripts": {
-    "postinstall": "node ./scripts/apply-modules.js"
-  },
   "types": "./cordova.plugins.diagnostic.d.ts",
   "version": "5.0.2"
 }
