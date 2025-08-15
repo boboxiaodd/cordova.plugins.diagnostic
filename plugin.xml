@@ -32,7 +32,7 @@
         <header-file src="src/ios/Diagnostic.h" />
         <source-file src="src/ios/Diagnostic.m" />
 
-        <!--BEGIN_MODULE LOCATION-->
+        <!--BEGIN_MODULE LOCATION--><!--
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Location">
                 <param name="ios-package" value="Diagnostic_Location" />
@@ -48,9 +48,9 @@
         <source-file src="src/ios/Diagnostic_Location.m" />
 
         <framework src="CoreLocation.framework" />
-        <!--END_MODULE LOCATION-->
+        --><!--END_MODULE LOCATION-->
 
-        <!--BEGIN_MODULE BLUETOOTH-->
+        <!--BEGIN_MODULE BLUETOOTH--><!--
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Bluetooth">
                 <param name="ios-package" value="Diagnostic_Bluetooth" />
@@ -66,9 +66,9 @@
         <source-file src="src/ios/Diagnostic_Bluetooth.m" />
 
         <framework src="CoreBluetooth.framework" />
-        <!--END_MODULE BLUETOOTH-->
+        --><!--END_MODULE BLUETOOTH-->
 
-        <!--BEGIN_MODULE WIFI-->
+        <!--BEGIN_MODULE WIFI--><!--
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Wifi">
                 <param name="ios-package" value="Diagnostic_Wifi" />
@@ -82,7 +82,7 @@
 
         <header-file src="src/ios/Diagnostic_Wifi.h" />
         <source-file src="src/ios/Diagnostic_Wifi.m" />
-        <!--END_MODULE WIFI-->
+        --><!--END_MODULE WIFI-->
 
         <!--BEGIN_MODULE CAMERA-->
         <config-file target="config.xml" parent="/*">
@@ -139,7 +139,7 @@
         <source-file src="src/ios/Diagnostic_Microphone.m" />
         <!--END_MODULE MICROPHONE-->
 
-        <!--BEGIN_MODULE CONTACTS-->
+        <!--BEGIN_MODULE CONTACTS--><!--
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Contacts">
                 <param name="ios-package" value="Diagnostic_Contacts" />
@@ -156,9 +156,9 @@
 
         <header-file src="src/ios/Diagnostic_Contacts.h" />
         <source-file src="src/ios/Diagnostic_Contacts.m" />
-        <!--END_MODULE CONTACTS-->
+        --><!--END_MODULE CONTACTS-->
 
-        <!--BEGIN_MODULE CALENDAR-->
+        <!--BEGIN_MODULE CALENDAR--><!--
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Calendar">
                 <param name="ios-package" value="Diagnostic_Calendar" />
@@ -174,9 +174,9 @@
 
         <header-file src="src/ios/Diagnostic_Calendar.h" />
         <source-file src="src/ios/Diagnostic_Calendar.m" />
-        <!--END_MODULE CALENDAR-->
+        --><!--END_MODULE CALENDAR-->
 
-        <!--BEGIN_MODULE REMINDERS-->
+        <!--BEGIN_MODULE REMINDERS--><!--
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Reminders">
                 <param name="ios-package" value="Diagnostic_Reminders" />
@@ -192,9 +192,9 @@
         
         <header-file src="src/ios/Diagnostic_Reminders.h" />
         <source-file src="src/ios/Diagnostic_Reminders.m" />
-        <!--END_MODULE REMINDERS-->
+        --><!--END_MODULE REMINDERS-->
 
-        <!--BEGIN_MODULE MOTION-->
+        <!--BEGIN_MODULE MOTION--><!--
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Motion">
                 <param name="ios-package" value="Diagnostic_Motion" />
@@ -210,7 +210,7 @@
 
         <header-file src="src/ios/Diagnostic_Motion.h" />
         <source-file src="src/ios/Diagnostic_Motion.m" />
-        <!--END_MODULE MOTION-->
+        --><!--END_MODULE MOTION-->
     </platform>
 
     <platform name="android">
@@ -231,7 +231,7 @@
         <framework src="com.android.support:support-v4:$ANDROID_SUPPORT_VERSION" />
         <framework src="com.android.support:appcompat-v7:$ANDROID_SUPPORT_VERSION" />
 
-        <!--BEGIN_MODULE LOCATION-->
+        <!--BEGIN_MODULE LOCATION--><!--
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Location" >
                 <param name="android-package" value="cordova.plugins.Diagnostic_Location"/>
@@ -244,9 +244,9 @@
         </js-module>
 
         <source-file src="src/android/Diagnostic_Location.java" target-dir="src/cordova/plugins" />
-        <!--END_MODULE LOCATION-->
+        --><!--END_MODULE LOCATION-->
 
-        <!--BEGIN_MODULE BLUETOOTH-->
+        <!--BEGIN_MODULE BLUETOOTH--><!--
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Bluetooth" >
                 <param name="android-package" value="cordova.plugins.Diagnostic_Bluetooth"/>
@@ -263,9 +263,9 @@
         </js-module>
 
         <source-file src="src/android/Diagnostic_Bluetooth.java" target-dir="src/cordova/plugins" />
-        <!--END_MODULE BLUETOOTH-->
+        --><!--END_MODULE BLUETOOTH-->
 
-        <!--BEGIN_MODULE WIFI-->
+        <!--BEGIN_MODULE WIFI--><!--
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Wifi" >
                 <param name="android-package" value="cordova.plugins.Diagnostic_Wifi"/>
@@ -278,9 +278,9 @@
         </js-module>
 
         <source-file src="src/android/Diagnostic_Wifi.java" target-dir="src/cordova/plugins" />
-        <!--END_MODULE WIFI-->
+        --><!--END_MODULE WIFI-->
 
-        <!--BEGIN_MODULE CAMERA-->
+        <!--BEGIN_MODULE CAMERA--><!--
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Camera" >
                 <param name="android-package" value="cordova.plugins.Diagnostic_Camera"/>
@@ -293,9 +293,9 @@
         </js-module>
 
         <source-file src="src/android/Diagnostic_Camera.java" target-dir="src/cordova/plugins" />
-        <!--END_MODULE CAMERA-->
+        --><!--END_MODULE CAMERA-->
 
-        <!--BEGIN_MODULE NOTIFICATIONS-->
+        <!--BEGIN_MODULE NOTIFICATIONS--><!--
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Notifications" >
                 <param name="android-package" value="cordova.plugins.Diagnostic_Notifications"/>
@@ -308,27 +308,27 @@
         </js-module>
 
         <source-file src="src/android/Diagnostic_Notifications.java" target-dir="src/cordova/plugins" />
-        <!--END_MODULE NOTIFICATIONS-->
+        --><!--END_MODULE NOTIFICATIONS-->
 
-        <!--BEGIN_MODULE MICROPHONE-->
+        <!--BEGIN_MODULE MICROPHONE--><!--
         <js-module name="Diagnostic_Microphone" src="www/android/diagnostic.microphone.js">
             <merges target="cordova.plugins.diagnostic.microphone" />
         </js-module>
-        <!--END_MODULE MICROPHONE-->
+        --><!--END_MODULE MICROPHONE-->
 
-        <!--BEGIN_MODULE CONTACTS-->
+        <!--BEGIN_MODULE CONTACTS--><!--
         <js-module name="Diagnostic_Contacts" src="www/android/diagnostic.contacts.js">
             <merges target="cordova.plugins.diagnostic.contacts" />
         </js-module>
-        <!--END_MODULE CONTACTS-->
+        --><!--END_MODULE CONTACTS-->
 
-        <!--BEGIN_MODULE CALENDAR-->
+        <!--BEGIN_MODULE CALENDAR--><!--
         <js-module name="Diagnostic_Calendar" src="www/android/diagnostic.calendar.js">
             <merges target="cordova.plugins.diagnostic.calendar" />
         </js-module>
-        <!--END_MODULE CALENDAR-->
+        --><!--END_MODULE CALENDAR-->
 
-        <!--BEGIN_MODULE NFC-->
+        <!--BEGIN_MODULE NFC--><!--
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_NFC" >
                 <param name="android-package" value="cordova.plugins.Diagnostic_NFC"/>
@@ -341,9 +341,9 @@
         </js-module>
 
         <source-file src="src/android/Diagnostic_NFC.java" target-dir="src/cordova/plugins" />
-        <!--END_MODULE NFC-->
+        --><!--END_MODULE NFC-->
 
-        <!--BEGIN_MODULE EXTERNAL_STORAGE-->
+        <!--BEGIN_MODULE EXTERNAL_STORAGE--><!--
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_External_Storage" >
                 <param name="android-package" value="cordova.plugins.Diagnostic_External_Storage"/>
@@ -356,7 +356,7 @@
         </js-module>
 
         <source-file src="src/android/Diagnostic_External_Storage.java" target-dir="src/cordova/plugins" />
-        <!--END_MODULE EXTERNAL_STORAGE-->
+        --><!--END_MODULE EXTERNAL_STORAGE-->
     </platform>
 
     <platform name="windows">
@@ -374,7 +374,7 @@
             <merges target="" />
         </js-module>
 
-        <!--BEGIN_MODULE LOCATION-->
+        <!--BEGIN_MODULE LOCATION--><!--
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Location" >
                 <param name="windows-package" value="cordova.plugins.Diagnostic_Location"/>
@@ -388,9 +388,9 @@
         <js-module src="src/windows/diagnosticProxy.location.js" name="diagnosticProxy.location">
             <merges target="" />
         </js-module>
-        <!--END_MODULE LOCATION-->
+        --><!--END_MODULE LOCATION-->
 
-        <!--BEGIN_MODULE BLUETOOTH-->
+        <!--BEGIN_MODULE BLUETOOTH--><!--
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Bluetooth" >
                 <param name="windows-package" value="cordova.plugins.Diagnostic_Bluetooth"/>
@@ -404,9 +404,9 @@
         <js-module src="src/windows/diagnosticProxy.bluetooth.js" name="diagnosticProxy.bluetooth">
             <merges target="" />
         </js-module>
-        <!--END_MODULE BLUETOOTH-->
+        --><!--END_MODULE BLUETOOTH-->
 
-        <!--BEGIN_MODULE WIFI-->
+        <!--BEGIN_MODULE WIFI--><!--
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Wifi" >
                 <param name="windows-package" value="cordova.plugins.Diagnostic_Wifi"/>
@@ -420,9 +420,9 @@
         <js-module src="src/windows/diagnosticProxy.wifi.js" name="diagnosticProxy.wifi">
             <merges target="" />
         </js-module>
-        <!--END_MODULE WIFI-->
+        --><!--END_MODULE WIFI-->
 
-        <!--BEGIN_MODULE CAMERA-->
+        <!--BEGIN_MODULE CAMERA--><!--
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Camera" >
                 <param name="windows-package" value="cordova.plugins.Diagnostic_Camera"/>
@@ -436,6 +436,6 @@
         <js-module src="src/windows/diagnosticProxy.camera.js" name="diagnosticProxy.camera">
             <merges target="" />
         </js-module>
-        <!--END_MODULE CAMERA-->
+        --><!--END_MODULE CAMERA-->
     </platform>
 </plugin>
